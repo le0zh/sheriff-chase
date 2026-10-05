@@ -3,7 +3,7 @@
   "threaded": false,
   "private_source_included": false,
   "pwa": true,
-  "pwa_version": "b9c561ad25a9e829e9dd",
+  "pwa_version": "6631b100cf3ac1eb0c98",
   "files": [
     {
       "path": ".nojekyll",
@@ -38,7 +38,7 @@
     {
       "path": "index.html",
       "bytes": 8689,
-      "sha256": "f50c3f8a0398a930224abe58aafec90a145c148b82cbaf16b1944cd2654fb2ab"
+      "sha256": "de7b6a7200de9c6ef6bb39fbe877cf5da02951599fd5efb23880e65369cdef6b"
     },
     {
       "path": "index.icon.png",
@@ -52,8 +52,8 @@
     },
     {
       "path": "index.pck",
-      "bytes": 6354436,
-      "sha256": "73d405c8a67b669512885562dc1364dbc137db0c90ec708e7dede787f1d14053"
+      "bytes": 6390412,
+      "sha256": "567c2fdeb0ab7f6833a1a4893095f0ad577d9d879b655a8d59237bcac7cd2141"
     },
     {
       "path": "index.png",
@@ -93,23 +93,22 @@
     {
       "path": "pwa.js",
       "bytes": 12048,
-      "sha256": "0929d2dcd7d294ecaf7b13e900df366786aeb33809ebb406f27ecf8ee6e07e97"
+      "sha256": "b60b11deaad00cf128bd601094025413f7a5d66808672cd638688f76222e4499"
     },
     {
       "path": "sw.js",
       "bytes": 7220,
-      "sha256": "0b4ad01c545412089c2a04327f036cd868e8c88841e9e470eeeff9b209203879"
+      "sha256": "00ec38b6d8f30189ec75e7c2307bf11a627152af1ee075cf7d76960c70e3ef6f"
     }
   ],
-  "total_bytes": 46272467,
-  "source_revision": "f289cb9db3fcf9dd83e425771365bbc56792dfc5",
+  "total_bytes": 46308443,
+  "source_revision": "93a1113b1a6d657f8fd58a1e6effdf864fedb22d",
+  "release_status": "candidate_not_published",
   "features": [
-    "four-panel illustrated comic",
-    "original instrumental loop",
-    "physics lightning boosts",
-    "visible catch and police-car boarding",
-    "teddy return and victory",
-    "scoped installable offline PWA"
-  ],
-  "validation": "Godot native/physics/audio, actual 320/390 renderer, exported PCK and PWA static/service-worker tests passed. Actual browser/device acceptance remains for authorized local deployment."
+    "18.4-second animated four-frame comic",
+    "Easy: 2 lanes, 75-second base distance",
+    "Hard: 3 lanes, 90-second base distance",
+    "animated police-station arrival and teddy return",
+    "existing music, boost and scoped offline PWA preserved"
+  ]
 }
