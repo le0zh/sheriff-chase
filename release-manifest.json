@@ -36,8 +36,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 6729,
-      "sha256": "1a96fe0100e8da5218f03ca6a17a371901b227bf847d4777ca5ce0dc7a69ca47"
+      "bytes": 6730,
+      "sha256": "eedb897605a28077ac93295f9d9a0c4c7f933822931f163d6ad5f293486e19d1"
     },
     {
       "path": "index.icon.png",
@@ -51,8 +51,8 @@
     },
     {
       "path": "index.pck",
-      "bytes": 986216,
-      "sha256": "a42676c822d8a82d3ef266ca470b545b56c2c1555dfd63d0587dd64b8d86074d"
+      "bytes": 1957092,
+      "sha256": "65d03db6dfae08663e62b0b6f9fac537d6b974c673030a836507d7ad2941c8ae"
     },
     {
       "path": "index.png",
@@ -65,7 +65,7 @@
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     }
   ],
-  "total_bytes": 40851893,
-  "source_revision": "62393283767b34b1ebe26f5740e7fdd99e6a897c",
+  "total_bytes": 41822770,
+  "source_revision": "2176bd0f40153ecc59196fab902993b9657013b8",
   "validation": "Native Godot and exported PCK passed; browser WebGL 2 acceptance pending in local executor."
 }
