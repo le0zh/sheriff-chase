@@ -3,7 +3,7 @@
   "threaded": false,
   "private_source_included": false,
   "pwa": true,
-  "pwa_version": "cc575679f14b6ffe05ae",
+  "pwa_version": "b9c561ad25a9e829e9dd",
   "files": [
     {
       "path": ".nojekyll",
@@ -67,8 +67,8 @@
     },
     {
       "path": "manifest.webmanifest",
-      "bytes": 731,
-      "sha256": "d49ba77050bcfe1b6810f8ed8d40e3af6bc37fd6abd65c1fd7cd419407aaa283"
+      "bytes": 744,
+      "sha256": "00d5ac474f5ab0b4d02c76c1472adaf435065f049ea9c7a1a27c10d642739f39"
     },
     {
       "path": "pwa-icon-192.png",
@@ -93,16 +93,16 @@
     {
       "path": "pwa.js",
       "bytes": 12048,
-      "sha256": "2540b08c1a8a25436bd8f8acf9de4f5ad303dbea636ecaff50cc6e850d6f543c"
+      "sha256": "0929d2dcd7d294ecaf7b13e900df366786aeb33809ebb406f27ecf8ee6e07e97"
     },
     {
       "path": "sw.js",
       "bytes": 7220,
-      "sha256": "e16176e8df27529a8ed94874545005b3ce9658c964ffc6c5c9185d64627ffa4c"
+      "sha256": "0b4ad01c545412089c2a04327f036cd868e8c88841e9e470eeeff9b209203879"
     }
   ],
-  "total_bytes": 46272454,
-  "source_revision": "9a29e3875c04fe2f6bdc685b88b3ea534683c6ff",
+  "total_bytes": 46272467,
+  "source_revision": "f289cb9db3fcf9dd83e425771365bbc56792dfc5",
   "features": [
     "four-panel illustrated comic",
     "original instrumental loop",
