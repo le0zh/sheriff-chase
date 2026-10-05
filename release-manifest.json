@@ -1,0 +1,71 @@
+{
+  "engine": "Godot 4.7.2",
+  "threaded": false,
+  "private_source_included": false,
+  "pwa": false,
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "credits.txt",
+      "bytes": 794,
+      "sha256": "f1ae4e40a61644dcfbe8a2174cb914be56624c3225698db2d0963b3fbadd7891"
+    },
+    {
+      "path": "fonts-OFL.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "index.apple-touch-icon.png",
+      "bytes": 10235,
+      "sha256": "451f09ee8cc88ba5c6855ae5d47ffac1abc210f7708bea85c9a70a883e76255f"
+    },
+    {
+      "path": "index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "path": "index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6729,
+      "sha256": "1a96fe0100e8da5218f03ca6a17a371901b227bf847d4777ca5ce0dc7a69ca47"
+    },
+    {
+      "path": "index.icon.png",
+      "bytes": 6924,
+      "sha256": "827093e2031ed772455c8ac3dacaf351a0d8d481f895c72e178c7ac71e7d1f1c"
+    },
+    {
+      "path": "index.js",
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    {
+      "path": "index.pck",
+      "bytes": 986216,
+      "sha256": "a42676c822d8a82d3ef266ca470b545b56c2c1555dfd63d0587dd64b8d86074d"
+    },
+    {
+      "path": "index.png",
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "index.wasm",
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    }
+  ],
+  "total_bytes": 40851893,
+  "source_revision": "62393283767b34b1ebe26f5740e7fdd99e6a897c",
+  "validation": "Native Godot and exported PCK passed; browser WebGL 2 acceptance pending in local executor."
+}

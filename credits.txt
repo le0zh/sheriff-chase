@@ -1,0 +1,9 @@
+Unofficial fan project, not affiliated with or endorsed by BabyBus.
+Sheriff Labrador / 啦咘啦哆警长 and Antel / 羚羚羊 remain characters of their respective rights holders.
+Generated character artwork is derivative fan art. No original character ownership or blanket redistribution license is claimed.
+Official reference images retained in the private source archive are reference material, not shipped runtime assets.
+The implementation and procedural scenery are custom work prepared for the requester. No additional public source license is granted here.
+Build dependency: Terser (BSD-2-Clause); development dependencies are not bundled into the game.
+
+Godot Engine 4.7.2, MIT license: https://godotengine.org/license/
+Noto Sans CJK subset, SIL Open Font License: see fonts-OFL.txt
