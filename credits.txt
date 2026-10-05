@@ -5,5 +5,7 @@ Official reference images retained in the private source archive are reference m
 The implementation and procedural scenery are custom work prepared for the requester. No additional public source license is granted here.
 Build dependency: Terser (BSD-2-Clause); development dependencies are not bundled into the game.
 
+The 16-second instrumental composition and synthesized recording are original work for this game; no named theme melody or lyrics are reproduced. See the private music provenance record for composition details.
+
 Godot Engine 4.7.2, MIT license: https://godotengine.org/license/
 Noto Sans CJK subset, SIL Open Font License: see fonts-OFL.txt

@@ -98,7 +98,12 @@ body {
 #canvas { width:100%; height:100%; touch-action:none; }
 #status-notice { background:#fff6dc; border-color:#e2c894; color:#48675e; font-family:system-ui,sans-serif; }
 #status-progress { accent-color:#64aaa4; }
-</style></head>
+</style><link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="警长出发">
+<link rel="stylesheet" href="pwa.css">
+</head>
 	<body>
 		<main id="game-frame"><canvas id="canvas" aria-label="警长出发：点击左右按钮换道">
 			这个浏览器暂时无法显示游戏，请换一个较新的浏览器。
@@ -114,9 +119,33 @@ body {
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="index.js"></script>
+		<aside id="pwa-bar" aria-label="添加游戏到桌面" hidden>
+  <div id="pwa-invite">
+    <img src="pwa-icon-192.png" width="40" height="40" alt="" />
+    <div class="pwa-copy"><strong>把警长放到桌面</strong><span>下次点图标，就能出发</span></div>
+    <button id="pwa-add" type="button">查看方法</button>
+    <button id="pwa-dismiss" type="button" aria-label="不再提示安装" title="不再提示">×</button>
+  </div>
+  <button id="pwa-reopen" type="button" hidden>＋ 添加到桌面</button>
+</aside>
+<dialog id="pwa-help" aria-labelledby="pwa-help-title" aria-describedby="pwa-intro">
+  <button id="pwa-close" class="pwa-close" type="button" aria-label="关闭安装说明">×</button>
+  <h2 id="pwa-help-title">把警长放到桌面</h2>
+  <p id="pwa-intro">添加后，可以从桌面图标打开游戏。</p>
+  <ol id="pwa-steps"></ol>
+  <p id="pwa-fallback"></p>
+  <button id="pwa-native-install" class="pwa-primary" type="button" hidden>安装游戏</button>
+  <p id="pwa-status" class="pwa-status" role="status" aria-live="polite">离线文件尚未保存；现在可以联网玩。</p>
+  <button id="pwa-retry" type="button" hidden>重试保存离线文件</button>
+  <p id="pwa-update" class="pwa-status" hidden>新版本已准备好。玩完后，关闭这个游戏的所有窗口，再打开即可更新。</p>
+  <p class="pwa-small">首次保存约 46 MB。浏览器清理数据后需重新联网下载。不会自动安装，也不会请求通知权限。</p>
+  <button id="pwa-done" type="button" class="pwa-primary">知道了，继续玩</button>
+</dialog>
+
+<script src="pwa.js"></script>
+<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":1957092,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":6354436,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const frame = document.getElementById('game-frame');
 const canvas = document.getElementById('canvas');
@@ -225,6 +254,7 @@ const engine = new Engine(GODOT_CONFIG);
 			},
 		}).then(() => {
 			setStatusMode('hidden');
+            window.sheriffGameReady && window.sheriffGameReady();
 		}, displayFailureNotice);
 	}
 }());
