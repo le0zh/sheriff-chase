@@ -1,7 +1,7 @@
 /* Install is optional. No gameplay decisions, permissions, or analytics live here. */
 (() => {
   'use strict';
-  const PAGE_VERSION = '6631b100cf3ac1eb0c98';
+  const PAGE_VERSION = '882c611b7d9294d61ba2';
   const DOWNLOAD_MB = '46';
   const scope = new URL('./', location.href).href;
   const storageKey = `sheriff-install-dismissed:${scope}`;

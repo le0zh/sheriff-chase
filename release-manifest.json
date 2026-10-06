@@ -3,7 +3,7 @@
   "threaded": false,
   "private_source_included": false,
   "pwa": true,
-  "pwa_version": "6631b100cf3ac1eb0c98",
+  "pwa_version": "882c611b7d9294d61ba2",
   "files": [
     {
       "path": ".nojekyll",
@@ -38,7 +38,7 @@
     {
       "path": "index.html",
       "bytes": 8689,
-      "sha256": "de7b6a7200de9c6ef6bb39fbe877cf5da02951599fd5efb23880e65369cdef6b"
+      "sha256": "9d50bd0b93570c9935ce2a144e2566e4df906f2668d2044ca02f5bfd38dd1b0a"
     },
     {
       "path": "index.icon.png",
@@ -52,8 +52,8 @@
     },
     {
       "path": "index.pck",
-      "bytes": 6390412,
-      "sha256": "567c2fdeb0ab7f6833a1a4893095f0ad577d9d879b655a8d59237bcac7cd2141"
+      "bytes": 6390732,
+      "sha256": "e153a04de15a04b318c5de9bdb47c1407f86a4ec2264fc1c3b64775e4d785c68"
     },
     {
       "path": "index.png",
@@ -93,22 +93,18 @@
     {
       "path": "pwa.js",
       "bytes": 12048,
-      "sha256": "b60b11deaad00cf128bd601094025413f7a5d66808672cd638688f76222e4499"
+      "sha256": "208c8f55a75e5cd1d7eff2781bda492816f99ec6ee874a0a32dddaf51792be53"
     },
     {
       "path": "sw.js",
       "bytes": 7220,
-      "sha256": "00ec38b6d8f30189ec75e7c2307bf11a627152af1ee075cf7d76960c70e3ef6f"
+      "sha256": "414a216ff649536004d13a62191c7e3553bf348b27e916708ac2fe0cacf58eb3"
     }
   ],
-  "total_bytes": 46308443,
-  "source_revision": "93a1113b1a6d657f8fd58a1e6effdf864fedb22d",
+  "total_bytes": 46308763,
+  "source_revision": "12fc2b54f93318f1831da28476e5e972f317630b",
   "release_status": "candidate_not_published",
-  "features": [
-    "18.4-second animated four-frame comic",
-    "Easy: 2 lanes, 75-second base distance",
-    "Hard: 3 lanes, 90-second base distance",
-    "animated police-station arrival and teddy return",
-    "existing music, boost and scoped offline PWA preserved"
-  ]
+  "change": "Hard base road speed +15%; Easy unchanged; 75/90 second unboosted mission durations preserved",
+  "verification": "Native 390/320 full flows; 15/240 FPS speed, modes, story and fairness; exported PCK; 24 PWA tests",
+  "built_at_utc": "2026-10-06T12:02:00Z"
 }
