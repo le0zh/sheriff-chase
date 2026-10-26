@@ -3,7 +3,7 @@
   "threaded": false,
   "private_source_included": false,
   "pwa": true,
-  "pwa_version": "882c611b7d9294d61ba2",
+  "pwa_version": "854ea8be1418b4264773",
   "files": [
     {
       "path": ".nojekyll",
@@ -22,8 +22,8 @@
     },
     {
       "path": "index.apple-touch-icon.png",
-      "bytes": 4624,
-      "sha256": "ad69955909c15a08cac78f63fc352607c7ea29ccd02985a75e02dd5df36ff6e9"
+      "bytes": 15699,
+      "sha256": "819f56bab4c5e0db9cb9415ac9037087b52f0ccbd09a641cc83fd1b6200c59d7"
     },
     {
       "path": "index.audio.position.worklet.js",
@@ -38,7 +38,7 @@
     {
       "path": "index.html",
       "bytes": 8689,
-      "sha256": "9d50bd0b93570c9935ce2a144e2566e4df906f2668d2044ca02f5bfd38dd1b0a"
+      "sha256": "64fb5aca1d61634ba09f76a011dffbd6fe8687226620a6fea09c52ca49b309a1"
     },
     {
       "path": "index.icon.png",
@@ -52,8 +52,8 @@
     },
     {
       "path": "index.pck",
-      "bytes": 6390732,
-      "sha256": "e153a04de15a04b318c5de9bdb47c1407f86a4ec2264fc1c3b64775e4d785c68"
+      "bytes": 6373700,
+      "sha256": "f908814f1d8dff1246570a36594d59d9a66e95934a0f270590f6e0cc282280ea"
     },
     {
       "path": "index.png",
@@ -72,18 +72,18 @@
     },
     {
       "path": "pwa-icon-192.png",
-      "bytes": 4852,
-      "sha256": "ed06fac082041ff5477537c03356a4bf8ec4e68f7228cad72d3b8d96deef1dbd"
+      "bytes": 15108,
+      "sha256": "eef7353b88687475b76c3020c9a2916fe41a75a222cfa1a3e1fb4ed8b1f5866a"
     },
     {
       "path": "pwa-icon-512.png",
-      "bytes": 14115,
-      "sha256": "92646f9a6fd164b362d28c5123ba03229636759d62570cf4754bc6eebe6b20d5"
+      "bytes": 47385,
+      "sha256": "25a83bf2bc7d0e0cf325c7054abc6004af47e03993a9e2675570fe49bc9fc3b5"
     },
     {
       "path": "pwa-maskable-512.png",
-      "bytes": 14115,
-      "sha256": "92646f9a6fd164b362d28c5123ba03229636759d62570cf4754bc6eebe6b20d5"
+      "bytes": 47385,
+      "sha256": "e8b59258466ea88c7731b552a86b1383951ad59c045364e51fb65683f41b81a6"
     },
     {
       "path": "pwa.css",
@@ -93,18 +93,14 @@
     {
       "path": "pwa.js",
       "bytes": 12048,
-      "sha256": "208c8f55a75e5cd1d7eff2781bda492816f99ec6ee874a0a32dddaf51792be53"
+      "sha256": "ade162935479036016dc9d7edb197f8dbd373becf7b2bbb22c2a77d3aa4fb3ab"
     },
     {
       "path": "sw.js",
-      "bytes": 7220,
-      "sha256": "414a216ff649536004d13a62191c7e3553bf348b27e916708ac2fe0cacf58eb3"
+      "bytes": 7222,
+      "sha256": "88d591440491827a0c68ecd973b3e84f18485e0c5572bd6eee0aa61b9bea7954"
     }
   ],
-  "total_bytes": 46308763,
-  "source_revision": "12fc2b54f93318f1831da28476e5e972f317630b",
-  "release_status": "candidate_not_published",
-  "change": "Hard base road speed +15%; Easy unchanged; 75/90 second unboosted mission durations preserved",
-  "verification": "Native 390/320 full flows; 15/240 FPS speed, modes, story and fairness; exported PCK; 24 PWA tests",
-  "built_at_utc": "2026-10-06T12:02:00Z"
+  "total_bytes": 46379604,
+  "source_revision": "e27fed3344abd990a0447c5e9d423dadd1c00035"
 }
